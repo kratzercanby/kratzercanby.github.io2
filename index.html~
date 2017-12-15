@@ -58,20 +58,20 @@
 				<!-- research -->
 					<section id="research" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<a href="research.html" class="image"><img src="images/thinfilm.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Research Experience</h2>
-									<p>During my undergraduate study in physics, I mainly focused on modeling software and experimental techniques for determining properties of thin films. I mainly worked with Zinc Sulfide (ZnS) on Silicon waifers being produced by members of my research team, which is well studied, and thus a good tool for comparing different analysis tools. I compared two techniques: Reflection Spectroscopy (RS) and Spectroscopic Ellipsometry (SE). </p>
-									<p>After my bachelor's thesis in physics was complete, I took a Summer to learn more about cities taking action on climate change. While volunteering at <a href="https://www.ourchildrenstrust.org/">Our Children's Trust</a>, I did some research into the Climate Action Plans (CAPs) that major cities across the United States were creating. Some citities (like New York City and Chicago) had been working on CAPs for years and had very solid schedules for updating and evaluating, and some plans were just getting started. Across the board, however, no plans that I encountered published a noticible economic impact analysis. After seeing so many plans, and so many policies come to realization, I began to think more about how to evaluate impacts and effectiveness...</p>
+									<p>During my undergraduate study in physics, I mainly focused on modeling software and experimental techniques for determining properties of thin films. I mainly worked with Zinc Sulfide (ZnS) on Silicon waifers. </p>
+									<p>After my bachelor's thesis in physics was complete, I took a Summer to learn more about cities taking action on climate change. While volunteering at <a href="https://www.ourchildrenstrust.org/">Our Children's Trust</a>, I did some research into the Climate Action Plans (CAPs) from major cities across the United States.</p>
 									<ul class="actions">
-										<li><a href="#" class="button">More about my physics research</a></li>
+										<li><a href="research.html" class="button">More about my physics research</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="images/books.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
 								  <h2>Research Interest</h2>
@@ -83,18 +83,6 @@
 									<!--<ul class="actions">
 										<li><a href="#" class="button">Learn more</a></li>
 									</ul>-->
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">Learn more</a></li>
-									</ul>
 								</div>
 							</div>
 						</section>
@@ -149,7 +137,7 @@
 								</section>-->
 							</div>
 							<ul class="actions">
-								<li><a href="#" class="button">Learn more</a></li>
+								<li><a href="background.html" class="button">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
@@ -168,13 +156,13 @@
 				<!-- CV -->
 					<section id="cv" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<a href="files/Kratzer, Aaron Curriculum Vitae.pdf" class="image"><img src="images/cv.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Curiculum Vitae</h2>
 									
 									<ul class="actions">
-										<li><a href="#" class="button">My CV</a></li>
+										<li><a href="files/Kratzer, Aaron Curriculum Vitae.pdf" class="button">My CV</a></li>
 									</ul>
 								</div>
 							</div>
