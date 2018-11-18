@@ -2626,19 +2626,22 @@
 			width: 100%;
 		}
 
-			.image.fit img {
-				width: 100%;
-			}
-
+		.image.fit img {
+			width: 100%;
+		}
+		.image.banner img {
+			height: 30%
+		}
+		
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
 			width: 100%;
 		}
 
-			.image.main img {
-				width: 100%;
-			}
+		.image.main img {
+			width: 100%;
+		}
 
 /* List */
 
