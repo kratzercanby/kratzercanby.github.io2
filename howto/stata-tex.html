@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Aaron Kratzer | How-To Stata->Tex</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+        
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Aaron Kratzer</a>
+				<nav>
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../research.html">Research Experience</a></li>
+						<li><a href="../background.html">Background</a></li>
+                        <li><a href="#" class="active">How-To</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Exporting Stata tables to LaTeX</h1>
+							<span class="image banner"><img src="images/git-pic.svg" alt="Version control and branching."/></span>
+							<ul>
+							  <li>Make sure the estout package is installed in Stata</li>
+						  	  <li>Put eststo X: reg y x1 x2, robust to store the regression as X (can use any variabel name, like firstreg, or yreg).</li>
+				              <li>Use esttab X using stata_1a.tex, replace to output stata_1a.tex with the X regression table</li>
+                              <li>Import the table into LaTeX using \import{stata_1a.tex}</li>
+							</ul>
+						</div>				  
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
