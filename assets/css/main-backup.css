@@ -55,6 +55,14 @@
 		box-sizing: border-box;
 	}
 
+/* Banner (by aaron) */
+    #banner {
+        background: url("images/greekthankyou.svg") no-repeat center top;
+        background-size: contain;
+        width: 100%;
+        padding-top: 240px;
+    }
+
 /* Grid */
 
 	.row {
@@ -1979,13 +1987,13 @@
 			color: #312450 !important;
 		}
 
-			input[type="submit"].special:after,
-			input[type="reset"].special:after,
-			input[type="button"].special:after,
-			button.special:after,
-			.button.special:after {
-				display: none;
-			}
+        input[type="submit"].special:after,
+        input[type="reset"].special:after,
+        input[type="button"].special:after,
+        button.special:after,
+        .button.special:after {
+            display: none;
+        }
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
@@ -2012,33 +2020,37 @@
 			border-color: rgba(255, 255, 255, 0.55) !important;
 		}
 
-			input[type="submit"]:hover:after,
-			input[type="reset"]:hover:after,
-			input[type="button"]:hover:after,
-			button:hover:after,
-			.button:hover:after {
-				opacity: 0.05;
-				-moz-transform: scale(1);
-				-webkit-transform: scale(1);
-				-ms-transform: scale(1);
-				transform: scale(1);
-			}
+        input[type="submit"]:hover:after,
+        input[type="reset"]:hover:after,
+        input[type="button"]:hover:after,
+        button:hover:after,
+        .button:hover:after {
+            opacity: 0.05;
+            -moz-transform: scale(1);
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
 
-			input[type="submit"]:hover:active,
-			input[type="reset"]:hover:active,
-			input[type="button"]:hover:active,
-			button:hover:active,
-			.button:hover:active {
-				border-color: #ffffff !important;
-			}
+        input[type="submit"]:hover:active,
+        input[type="reset"]:hover:active,
+        input[type="button"]:hover:active,
+        button:hover:active,
+        .button:hover:active {
+            border-color: #ffffff !important;
+        }
 
-				input[type="submit"]:hover:active:after,
-				input[type="reset"]:hover:active:after,
-				input[type="button"]:hover:active:after,
-				button:hover:active:after,
-				.button:hover:active:after {
-					opacity: 0.1;
-				}
+        input[type="submit"]:hover:active:after,
+        input[type="reset"]:hover:active:after,
+        input[type="button"]:hover:active:after,
+        button:hover:active:after,
+        .button:hover:active:after {
+            opacity: 0.1;
+        }
+
+    #centerbutton {
+        margin: auto;
+    }
 
 /* Features */
 
@@ -2626,19 +2638,22 @@
 			width: 100%;
 		}
 
-			.image.fit img {
-				width: 100%;
-			}
-
+		.image.fit img {
+			width: 100%;
+		}
+		.image.banner img {
+			height: 30%
+		}
+		
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
 			width: 100%;
 		}
 
-			.image.main img {
-				width: 100%;
-			}
+		.image.main img {
+			width: 100%;
+		}
 
 /* List */
 
