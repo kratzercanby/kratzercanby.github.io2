@@ -37,28 +37,23 @@
 						<div class="inner">
 							<h1 class="major">Setting Up Git</h1>
 							<span class="image banner"><img src="images/git-pic.svg" alt="Version control and branching."/></span>
-							<p>This section to come.</p>
-									<p>More Git instructions</p>
-						</div>
-           					<div class="inner">
-							<h1 class="major">USB Portable TeXstudio</h1>
-							<span class="image fit"></span>
 							<ul>
-							  <li><a href="https://drive.google.com/uc?export=download&id=1AmWsyTTQbA5EhSH_f8KVxEuOdElt2S_w">Download</a> the USB zip file.</li>
-						  	  <li>Unzip the contents to the USB flash drive, so MiKTeX is in the main directory of the drive.</li>
-							  <li>Start TeXing!</li>
+                                <li>First, <a href="https://help.github.com/articles/checking-for-existing-ssh-keys/">check for a current SSH key</a> on your computer.</li>
+                                <li>If none exist, create one with ssh-keygen -t rsa -b 4096 -C "yourgitusername@github.com"</li>
+                                <li>Press enter on "Enter a file in which to save the key".</li>
+                                <li>Create a passphrase (better remember this).</li>
+                                <li>Start the ssh-agent with eval $(ssh-agent -s)</li>
+                                <li>Add SSH key to the ssh-agent using ssh-add ~/.ssh/id_rsa</li>
+                                <li><a href="https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account">Add the SSH key to your GitHub account</a></li>
+                                <ul>
+                                    <li>Copy the ssh key to your clipboard with (clip < ~/.ssh/id_rsa.pub) or (sudo apt-get -y install xclip && xclip -sel cli ~/.ssh/id_rsa.pub)</li>
+                                    <li>Go to GitHub settings page.</li>
+                                    <li>Go to SSH and GPG keys, and click New/Add SSH key.</li>
+                                    <li>For the title, name the computer specifically so you know which key belongs to which computer.</li>
+                                    <li>Paste the key into the "Key" field. Add SSH key.</li>
+                                </ul>
 							</ul>
 						</div>				  
-						<div class="inner">
-							<h1 class="major">Raspberry Pi Quick Setup</h1>
-              <ul>
-                <li><a href="https://www.raspberrypi.org/help/noobs-setup/2/">These are helpful instructions</a></li>
-                <li>Get and format a 4GB+ SD card to FAT32. If larger than 32GB, use SD Card Formatter 4.0 from <a href="http://www.sdcard.org/">SD Card Association website</a> to remove any partitions. Then use <a href="http://www.ridgecrop.demon.co.uk/guiformat.htm">FAT32 Formatter</a> to format the large SD card to FAT32.</li>
-                <li>Download NOOBS from the <a href="https://www.raspberrypi.org/downloads/noobs/">RPi website</a> and unzip them to the SD card.</li>
-                <li>Put the SD card in the RPi, plug in all the USB/HDMI devices, then plug in the power and get started.</li>
-                <li>Once the operating system is started, download Aaron's setup file. Open a terminal and copy and paste (with CRTL-SHIFT-v) the following: wget -O $HOME/Downlods/setup tinyurl.com/ack-rpisetup</li>
-                <li>Run setup from the Downloads folder and watch RPi get configured!
-						</div>
 					</section>
 
 			</div>
